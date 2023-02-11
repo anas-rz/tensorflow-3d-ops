@@ -1,6 +1,5 @@
 import tensorflow as tf
 from tensorflow.keras import backend as K
-import functools
 
 def _flip_unbatched(image, flip_dimension):
     if flip_dimension == 'horizontal':
