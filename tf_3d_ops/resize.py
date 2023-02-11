@@ -29,4 +29,3 @@ class Resize3D(Layer):
             resized_list.append(tf.image.resize(i, [d_out, w_out], method=self.method))
         stack_img = tf.stack(resized_list, axis=2)
         return stack_img
-
