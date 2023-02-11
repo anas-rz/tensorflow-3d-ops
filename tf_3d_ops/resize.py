@@ -22,3 +22,7 @@ def resize(image, output_size, method='nearest'):
         resized_list.append(tf.image.resize(i, [d_out, w_out], method=method))
     stack_img = tf.stack(resized_list, axis=2)
     return stack_img
+
+def resize_with_pad():
+    raise NotImplementedError
+    
