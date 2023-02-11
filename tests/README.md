@@ -1,4 +1,4 @@
-# Testing Qualitative for tf_3d_ops
+# Qualitative Testing  for tf_3d_ops
 
 Original            |  Resized
 :-------------------------:|:-------------------------:
